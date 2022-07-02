@@ -1,0 +1,592 @@
+[0.000000] (-) TimerEvent: {}
+[0.000993] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.002353] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.002512] (-) JobUnselected: {'identifier': 'ctrl_pkg'}
+[0.003321] (-) JobUnselected: {'identifier': 'deepracer_interfaces_pkg'}
+[0.003462] (-) JobUnselected: {'identifier': 'deepracer_launcher'}
+[0.004581] (-) JobUnselected: {'identifier': 'deepracer_navigation_pkg'}
+[0.004744] (-) JobUnselected: {'identifier': 'deepracer_systems_pkg'}
+[0.004827] (-) JobUnselected: {'identifier': 'device_info_pkg'}
+[0.004906] (-) JobUnselected: {'identifier': 'i2c_pkg'}
+[0.004981] (-) JobUnselected: {'identifier': 'model_optimizer_pkg'}
+[0.005059] (-) JobUnselected: {'identifier': 'rplidar_ros2'}
+[0.005137] (-) JobUnselected: {'identifier': 'sensor_fusion_pkg'}
+[0.005212] (-) JobUnselected: {'identifier': 'servo_pkg'}
+[0.005290] (-) JobUnselected: {'identifier': 'status_led_pkg'}
+[0.014165] (-) JobUnselected: {'identifier': 'usb_monitor_pkg'}
+[0.014325] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.014403] (-) JobUnselected: {'identifier': 'webserver_pkg'}
+[0.014491] (inference_pkg) JobQueued: {'identifier': 'inference_pkg', 'dependencies': OrderedDict([('deepracer_interfaces_pkg', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg')])}
+[0.014595] (inference_pkg) JobStarted: {'identifier': 'inference_pkg'}
+[0.098490] (-) TimerEvent: {}
+[0.199190] (-) TimerEvent: {}
+[0.286652] (inference_pkg) JobProgress: {'identifier': 'inference_pkg', 'progress': 'cmake'}
+[0.290762] (inference_pkg) JobProgress: {'identifier': 'inference_pkg', 'progress': 'build'}
+[0.299943] (inference_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg', '--', '-j2', '-l2'], 'cwd': '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'deepracer'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg')]), 'shell': False}
+[0.316882] (-) TimerEvent: {}
+[0.417907] (-) TimerEvent: {}
+[0.518885] (-) TimerEvent: {}
+[0.619502] (-) TimerEvent: {}
+[0.720205] (-) TimerEvent: {}
+[0.821107] (-) TimerEvent: {}
+[0.921774] (-) TimerEvent: {}
+[1.022625] (-) TimerEvent: {}
+[1.123262] (-) TimerEvent: {}
+[1.206375] (inference_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target inference_node\x1b[0m\n'}
+[1.232083] (-) TimerEvent: {}
+[1.333024] (-) TimerEvent: {}
+[1.433875] (-) TimerEvent: {}
+[1.534525] (-) TimerEvent: {}
+[1.635147] (-) TimerEvent: {}
+[1.656144] (inference_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o\x1b[0m\n'}
+[1.736284] (-) TimerEvent: {}
+[1.836934] (-) TimerEvent: {}
+[1.938804] (-) TimerEvent: {}
+[2.039514] (-) TimerEvent: {}
+[2.145844] (-) TimerEvent: {}
+[2.246666] (-) TimerEvent: {}
+[2.347729] (-) TimerEvent: {}
+[2.448621] (-) TimerEvent: {}
+[2.549301] (-) TimerEvent: {}
+[2.649989] (-) TimerEvent: {}
+[2.750691] (-) TimerEvent: {}
+[2.851510] (-) TimerEvent: {}
+[2.952190] (-) TimerEvent: {}
+[3.052817] (-) TimerEvent: {}
+[3.153492] (-) TimerEvent: {}
+[3.254294] (-) TimerEvent: {}
+[3.355124] (-) TimerEvent: {}
+[3.455793] (-) TimerEvent: {}
+[3.556663] (-) TimerEvent: {}
+[3.662743] (-) TimerEvent: {}
+[3.764426] (-) TimerEvent: {}
+[3.865102] (-) TimerEvent: {}
+[3.965944] (-) TimerEvent: {}
+[4.066643] (-) TimerEvent: {}
+[4.167506] (-) TimerEvent: {}
+[4.268392] (-) TimerEvent: {}
+[4.369248] (-) TimerEvent: {}
+[4.470096] (-) TimerEvent: {}
+[4.571024] (-) TimerEvent: {}
+[4.671691] (-) TimerEvent: {}
+[4.772404] (-) TimerEvent: {}
+[4.873256] (-) TimerEvent: {}
+[4.974123] (-) TimerEvent: {}
+[5.074980] (-) TimerEvent: {}
+[5.176439] (-) TimerEvent: {}
+[5.277326] (-) TimerEvent: {}
+[5.378180] (-) TimerEvent: {}
+[5.479042] (-) TimerEvent: {}
+[5.579909] (-) TimerEvent: {}
+[5.680783] (-) TimerEvent: {}
+[5.781482] (-) TimerEvent: {}
+[5.882331] (-) TimerEvent: {}
+[5.983201] (-) TimerEvent: {}
+[6.084082] (-) TimerEvent: {}
+[6.184924] (-) TimerEvent: {}
+[6.285778] (-) TimerEvent: {}
+[6.386637] (-) TimerEvent: {}
+[6.487472] (-) TimerEvent: {}
+[6.588341] (-) TimerEvent: {}
+[6.689185] (-) TimerEvent: {}
+[6.790361] (-) TimerEvent: {}
+[6.891055] (-) TimerEvent: {}
+[6.991769] (-) TimerEvent: {}
+[7.092645] (-) TimerEvent: {}
+[7.193501] (-) TimerEvent: {}
+[7.294359] (-) TimerEvent: {}
+[7.395063] (-) TimerEvent: {}
+[7.495771] (-) TimerEvent: {}
+[7.596636] (-) TimerEvent: {}
+[7.699982] (-) TimerEvent: {}
+[7.800836] (-) TimerEvent: {}
+[7.901831] (-) TimerEvent: {}
+[8.002869] (-) TimerEvent: {}
+[8.103577] (-) TimerEvent: {}
+[8.204294] (-) TimerEvent: {}
+[8.304978] (-) TimerEvent: {}
+[8.405840] (-) TimerEvent: {}
+[8.506702] (-) TimerEvent: {}
+[8.607559] (-) TimerEvent: {}
+[8.710026] (-) TimerEvent: {}
+[8.810864] (-) TimerEvent: {}
+[8.911715] (-) TimerEvent: {}
+[9.012581] (-) TimerEvent: {}
+[9.113419] (-) TimerEvent: {}
+[9.214272] (-) TimerEvent: {}
+[9.315129] (-) TimerEvent: {}
+[9.415995] (-) TimerEvent: {}
+[9.516789] (-) TimerEvent: {}
+[9.617481] (-) TimerEvent: {}
+[9.718185] (-) TimerEvent: {}
+[9.818890] (-) TimerEvent: {}
+[9.919591] (-) TimerEvent: {}
+[10.020338] (-) TimerEvent: {}
+[10.121026] (-) TimerEvent: {}
+[10.221768] (-) TimerEvent: {}
+[10.322467] (-) TimerEvent: {}
+[10.423161] (-) TimerEvent: {}
+[10.523859] (-) TimerEvent: {}
+[10.624585] (-) TimerEvent: {}
+[10.725290] (-) TimerEvent: {}
+[10.832226] (-) TimerEvent: {}
+[10.932916] (-) TimerEvent: {}
+[11.033612] (-) TimerEvent: {}
+[11.134305] (-) TimerEvent: {}
+[11.235052] (-) TimerEvent: {}
+[11.335766] (-) TimerEvent: {}
+[11.436591] (-) TimerEvent: {}
+[11.537338] (-) TimerEvent: {}
+[11.638052] (-) TimerEvent: {}
+[11.738917] (-) TimerEvent: {}
+[11.839782] (-) TimerEvent: {}
+[11.942273] (-) TimerEvent: {}
+[12.044641] (-) TimerEvent: {}
+[12.145488] (-) TimerEvent: {}
+[12.246356] (-) TimerEvent: {}
+[12.347338] (-) TimerEvent: {}
+[12.448191] (-) TimerEvent: {}
+[12.549027] (-) TimerEvent: {}
+[12.649871] (-) TimerEvent: {}
+[12.750713] (-) TimerEvent: {}
+[12.851575] (-) TimerEvent: {}
+[12.952442] (-) TimerEvent: {}
+[13.053150] (-) TimerEvent: {}
+[13.154052] (-) TimerEvent: {}
+[13.254776] (-) TimerEvent: {}
+[13.355477] (-) TimerEvent: {}
+[13.456204] (-) TimerEvent: {}
+[13.558242] (-) TimerEvent: {}
+[13.658944] (-) TimerEvent: {}
+[13.759851] (-) TimerEvent: {}
+[13.860784] (-) TimerEvent: {}
+[13.961773] (-) TimerEvent: {}
+[14.062680] (-) TimerEvent: {}
+[14.163595] (-) TimerEvent: {}
+[14.264522] (-) TimerEvent: {}
+[14.365398] (-) TimerEvent: {}
+[14.466301] (-) TimerEvent: {}
+[14.567262] (-) TimerEvent: {}
+[14.668207] (-) TimerEvent: {}
+[14.768906] (-) TimerEvent: {}
+[14.869767] (-) TimerEvent: {}
+[14.970471] (-) TimerEvent: {}
+[15.071360] (-) TimerEvent: {}
+[15.172407] (-) TimerEvent: {}
+[15.274971] (-) TimerEvent: {}
+[15.375888] (-) TimerEvent: {}
+[15.477034] (-) TimerEvent: {}
+[15.577950] (-) TimerEvent: {}
+[15.678875] (-) TimerEvent: {}
+[15.685296] (inference_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.685975] (inference_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:262:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klidar_value\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[15.686297] (inference_pkg) StderrLine: {'line': b'  262 |         for(const auto& \x1b[01;35m\x1b[Klidar_value\x1b[m\x1b[K : lidar_data) {\n'}
+[15.686634] (inference_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.779053] (-) TimerEvent: {}
+[15.879933] (-) TimerEvent: {}
+[15.980857] (-) TimerEvent: {}
+[16.081832] (-) TimerEvent: {}
+[16.182743] (-) TimerEvent: {}
+[16.283645] (-) TimerEvent: {}
+[16.384582] (-) TimerEvent: {}
+[16.485475] (-) TimerEvent: {}
+[16.586403] (-) TimerEvent: {}
+[16.687306] (-) TimerEvent: {}
+[16.788201] (-) TimerEvent: {}
+[16.889050] (-) TimerEvent: {}
+[16.989968] (-) TimerEvent: {}
+[17.090888] (-) TimerEvent: {}
+[17.191792] (-) TimerEvent: {}
+[17.292724] (-) TimerEvent: {}
+[17.393640] (-) TimerEvent: {}
+[17.494566] (-) TimerEvent: {}
+[17.595479] (-) TimerEvent: {}
+[17.698301] (-) TimerEvent: {}
+[17.804230] (-) TimerEvent: {}
+[17.905135] (-) TimerEvent: {}
+[18.007363] (-) TimerEvent: {}
+[18.108307] (-) TimerEvent: {}
+[18.209212] (-) TimerEvent: {}
+[18.310133] (-) TimerEvent: {}
+[18.411025] (-) TimerEvent: {}
+[18.511707] (-) TimerEvent: {}
+[18.612581] (-) TimerEvent: {}
+[18.713432] (-) TimerEvent: {}
+[18.814283] (-) TimerEvent: {}
+[18.915130] (-) TimerEvent: {}
+[19.015832] (-) TimerEvent: {}
+[19.116708] (-) TimerEvent: {}
+[19.217555] (-) TimerEvent: {}
+[19.318404] (-) TimerEvent: {}
+[19.419345] (-) TimerEvent: {}
+[19.521691] (-) TimerEvent: {}
+[19.622544] (-) TimerEvent: {}
+[19.724880] (-) TimerEvent: {}
+[19.825714] (-) TimerEvent: {}
+[19.928058] (-) TimerEvent: {}
+[20.028903] (-) TimerEvent: {}
+[20.129763] (-) TimerEvent: {}
+[20.230531] (-) TimerEvent: {}
+[20.331145] (-) TimerEvent: {}
+[20.431778] (-) TimerEvent: {}
+[20.532499] (-) TimerEvent: {}
+[20.636905] (-) TimerEvent: {}
+[20.739777] (-) TimerEvent: {}
+[20.840714] (-) TimerEvent: {}
+[20.941390] (-) TimerEvent: {}
+[21.042372] (-) TimerEvent: {}
+[21.143220] (-) TimerEvent: {}
+[21.243931] (-) TimerEvent: {}
+[21.344807] (-) TimerEvent: {}
+[21.445702] (-) TimerEvent: {}
+[21.546617] (-) TimerEvent: {}
+[21.647525] (-) TimerEvent: {}
+[21.748490] (-) TimerEvent: {}
+[21.849392] (-) TimerEvent: {}
+[21.950297] (-) TimerEvent: {}
+[22.051240] (-) TimerEvent: {}
+[22.152215] (-) TimerEvent: {}
+[22.253115] (-) TimerEvent: {}
+[22.354012] (-) TimerEvent: {}
+[22.454926] (-) TimerEvent: {}
+[22.555838] (-) TimerEvent: {}
+[22.656752] (-) TimerEvent: {}
+[22.757681] (-) TimerEvent: {}
+[22.858538] (-) TimerEvent: {}
+[22.959459] (-) TimerEvent: {}
+[23.060375] (-) TimerEvent: {}
+[23.161274] (-) TimerEvent: {}
+[23.262182] (-) TimerEvent: {}
+[23.363098] (-) TimerEvent: {}
+[23.464008] (-) TimerEvent: {}
+[23.565045] (-) TimerEvent: {}
+[23.665938] (-) TimerEvent: {}
+[23.767472] (-) TimerEvent: {}
+[23.868401] (-) TimerEvent: {}
+[23.969303] (-) TimerEvent: {}
+[24.071751] (-) TimerEvent: {}
+[24.172691] (-) TimerEvent: {}
+[24.273591] (-) TimerEvent: {}
+[24.374514] (-) TimerEvent: {}
+[24.475422] (-) TimerEvent: {}
+[24.576339] (-) TimerEvent: {}
+[24.677251] (-) TimerEvent: {}
+[24.778146] (-) TimerEvent: {}
+[24.879060] (-) TimerEvent: {}
+[24.979967] (-) TimerEvent: {}
+[25.080890] (-) TimerEvent: {}
+[25.181802] (-) TimerEvent: {}
+[25.282705] (-) TimerEvent: {}
+[25.384226] (-) TimerEvent: {}
+[25.484854] (-) TimerEvent: {}
+[25.585510] (-) TimerEvent: {}
+[25.686410] (-) TimerEvent: {}
+[25.787816] (-) TimerEvent: {}
+[25.888748] (-) TimerEvent: {}
+[25.989660] (-) TimerEvent: {}
+[26.090577] (-) TimerEvent: {}
+[26.191472] (-) TimerEvent: {}
+[26.292368] (-) TimerEvent: {}
+[26.393054] (-) TimerEvent: {}
+[26.493790] (-) TimerEvent: {}
+[26.594488] (-) TimerEvent: {}
+[26.695394] (-) TimerEvent: {}
+[26.796302] (-) TimerEvent: {}
+[26.897311] (-) TimerEvent: {}
+[26.998218] (-) TimerEvent: {}
+[27.098926] (-) TimerEvent: {}
+[27.199830] (-) TimerEvent: {}
+[27.300758] (-) TimerEvent: {}
+[27.402784] (-) TimerEvent: {}
+[27.503692] (-) TimerEvent: {}
+[27.604575] (-) TimerEvent: {}
+[27.705473] (-) TimerEvent: {}
+[27.809416] (-) TimerEvent: {}
+[27.910329] (-) TimerEvent: {}
+[28.011007] (-) TimerEvent: {}
+[28.111863] (-) TimerEvent: {}
+[28.212544] (-) TimerEvent: {}
+[28.313228] (-) TimerEvent: {}
+[28.413915] (-) TimerEvent: {}
+[28.514599] (-) TimerEvent: {}
+[28.620948] (-) TimerEvent: {}
+[28.724854] (-) TimerEvent: {}
+[28.825537] (-) TimerEvent: {}
+[28.926789] (-) TimerEvent: {}
+[29.027520] (-) TimerEvent: {}
+[29.128162] (-) TimerEvent: {}
+[29.228828] (-) TimerEvent: {}
+[29.329542] (-) TimerEvent: {}
+[29.434367] (-) TimerEvent: {}
+[29.535069] (-) TimerEvent: {}
+[29.635735] (-) TimerEvent: {}
+[29.736421] (-) TimerEvent: {}
+[29.837079] (-) TimerEvent: {}
+[29.937696] (-) TimerEvent: {}
+[30.038346] (-) TimerEvent: {}
+[30.139040] (-) TimerEvent: {}
+[30.240370] (-) TimerEvent: {}
+[30.341657] (-) TimerEvent: {}
+[30.442354] (-) TimerEvent: {}
+[30.543050] (-) TimerEvent: {}
+[30.643750] (-) TimerEvent: {}
+[30.744478] (-) TimerEvent: {}
+[30.845171] (-) TimerEvent: {}
+[30.945856] (-) TimerEvent: {}
+[31.046553] (-) TimerEvent: {}
+[31.147241] (-) TimerEvent: {}
+[31.249631] (-) TimerEvent: {}
+[31.351269] (-) TimerEvent: {}
+[31.451970] (-) TimerEvent: {}
+[31.608798] (-) TimerEvent: {}
+[31.709459] (-) TimerEvent: {}
+[31.810147] (-) TimerEvent: {}
+[31.910852] (-) TimerEvent: {}
+[32.011532] (-) TimerEvent: {}
+[32.112226] (-) TimerEvent: {}
+[32.212997] (-) TimerEvent: {}
+[32.313699] (-) TimerEvent: {}
+[32.414351] (-) TimerEvent: {}
+[32.515039] (-) TimerEvent: {}
+[32.615745] (-) TimerEvent: {}
+[32.716473] (-) TimerEvent: {}
+[32.817168] (-) TimerEvent: {}
+[32.917869] (-) TimerEvent: {}
+[33.018557] (-) TimerEvent: {}
+[33.119198] (-) TimerEvent: {}
+[33.219852] (-) TimerEvent: {}
+[33.320529] (-) TimerEvent: {}
+[33.428247] (-) TimerEvent: {}
+[33.528958] (-) TimerEvent: {}
+[33.629628] (-) TimerEvent: {}
+[33.730309] (-) TimerEvent: {}
+[33.831013] (-) TimerEvent: {}
+[33.931937] (-) TimerEvent: {}
+[34.032852] (-) TimerEvent: {}
+[34.135305] (-) TimerEvent: {}
+[34.236210] (-) TimerEvent: {}
+[34.336896] (-) TimerEvent: {}
+[34.437782] (-) TimerEvent: {}
+[34.538704] (-) TimerEvent: {}
+[34.639613] (-) TimerEvent: {}
+[34.740551] (-) TimerEvent: {}
+[34.841238] (-) TimerEvent: {}
+[34.942156] (-) TimerEvent: {}
+[35.043067] (-) TimerEvent: {}
+[35.144020] (-) TimerEvent: {}
+[35.244944] (-) TimerEvent: {}
+[35.346544] (-) TimerEvent: {}
+[35.447645] (-) TimerEvent: {}
+[35.548598] (-) TimerEvent: {}
+[35.649590] (-) TimerEvent: {}
+[35.750452] (-) TimerEvent: {}
+[35.851311] (-) TimerEvent: {}
+[35.952228] (-) TimerEvent: {}
+[36.053132] (-) TimerEvent: {}
+[36.154025] (-) TimerEvent: {}
+[36.254936] (-) TimerEvent: {}
+[36.355848] (-) TimerEvent: {}
+[36.457564] (-) TimerEvent: {}
+[36.558523] (-) TimerEvent: {}
+[36.659204] (-) TimerEvent: {}
+[36.767269] (-) TimerEvent: {}
+[36.869682] (-) TimerEvent: {}
+[36.973709] (-) TimerEvent: {}
+[37.086046] (-) TimerEvent: {}
+[37.188592] (-) TimerEvent: {}
+[37.323147] (-) TimerEvent: {}
+[37.434009] (-) TimerEvent: {}
+[37.536325] (-) TimerEvent: {}
+[37.643993] (-) TimerEvent: {}
+[37.747960] (-) TimerEvent: {}
+[37.850545] (-) TimerEvent: {}
+[37.956169] (-) TimerEvent: {}
+[38.057080] (-) TimerEvent: {}
+[38.164340] (-) TimerEvent: {}
+[38.268186] (-) TimerEvent: {}
+[38.378448] (-) TimerEvent: {}
+[38.484163] (-) TimerEvent: {}
+[38.587001] (-) TimerEvent: {}
+[38.687655] (-) TimerEvent: {}
+[38.792219] (-) TimerEvent: {}
+[38.897653] (-) TimerEvent: {}
+[38.998817] (-) TimerEvent: {}
+[39.102788] (-) TimerEvent: {}
+[39.209141] (-) TimerEvent: {}
+[39.320279] (-) TimerEvent: {}
+[39.434060] (-) TimerEvent: {}
+[39.543412] (-) TimerEvent: {}
+[39.644086] (-) TimerEvent: {}
+[39.744737] (-) TimerEvent: {}
+[39.863679] (-) TimerEvent: {}
+[39.964591] (-) TimerEvent: {}
+[40.065261] (-) TimerEvent: {}
+[40.172201] (-) TimerEvent: {}
+[40.273236] (-) TimerEvent: {}
+[40.380106] (-) TimerEvent: {}
+[40.484180] (-) TimerEvent: {}
+[40.585053] (-) TimerEvent: {}
+[40.688920] (-) TimerEvent: {}
+[40.800232] (-) TimerEvent: {}
+[40.906352] (-) TimerEvent: {}
+[41.016203] (-) TimerEvent: {}
+[41.120206] (-) TimerEvent: {}
+[41.232230] (-) TimerEvent: {}
+[41.336224] (-) TimerEvent: {}
+[41.437105] (-) TimerEvent: {}
+[41.537765] (-) TimerEvent: {}
+[41.638667] (-) TimerEvent: {}
+[41.739566] (-) TimerEvent: {}
+[41.840260] (-) TimerEvent: {}
+[41.940935] (-) TimerEvent: {}
+[42.015097] (inference_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable inference_node\x1b[0m\n'}
+[42.041126] (-) TimerEvent: {}
+[42.142019] (-) TimerEvent: {}
+[42.244206] (-) TimerEvent: {}
+[42.348182] (-) TimerEvent: {}
+[42.448846] (-) TimerEvent: {}
+[42.549558] (-) TimerEvent: {}
+[42.650249] (-) TimerEvent: {}
+[42.750888] (-) TimerEvent: {}
+[42.851564] (-) TimerEvent: {}
+[42.952157] (-) TimerEvent: {}
+[43.052781] (-) TimerEvent: {}
+[43.153455] (-) TimerEvent: {}
+[43.262333] (-) TimerEvent: {}
+[43.372252] (-) TimerEvent: {}
+[43.472968] (-) TimerEvent: {}
+[43.573687] (-) TimerEvent: {}
+[43.674987] (-) TimerEvent: {}
+[43.784425] (-) TimerEvent: {}
+[43.885098] (-) TimerEvent: {}
+[43.985772] (-) TimerEvent: {}
+[44.086468] (-) TimerEvent: {}
+[44.187144] (-) TimerEvent: {}
+[44.287808] (-) TimerEvent: {}
+[44.388475] (-) TimerEvent: {}
+[44.489139] (-) TimerEvent: {}
+[44.589825] (-) TimerEvent: {}
+[44.690503] (-) TimerEvent: {}
+[44.795609] (-) TimerEvent: {}
+[44.896302] (-) TimerEvent: {}
+[45.006370] (-) TimerEvent: {}
+[45.112240] (-) TimerEvent: {}
+[45.217174] (-) TimerEvent: {}
+[45.318082] (-) TimerEvent: {}
+[45.418945] (-) TimerEvent: {}
+[45.519602] (-) TimerEvent: {}
+[45.620401] (-) TimerEvent: {}
+[45.721062] (-) TimerEvent: {}
+[45.821717] (-) TimerEvent: {}
+[45.922350] (-) TimerEvent: {}
+[46.022983] (-) TimerEvent: {}
+[46.123587] (-) TimerEvent: {}
+[46.239882] (-) TimerEvent: {}
+[46.340641] (-) TimerEvent: {}
+[46.448567] (-) TimerEvent: {}
+[46.549231] (-) TimerEvent: {}
+[46.656771] (-) TimerEvent: {}
+[46.765804] (-) TimerEvent: {}
+[46.878741] (-) TimerEvent: {}
+[46.980365] (-) TimerEvent: {}
+[47.081009] (-) TimerEvent: {}
+[47.181648] (-) TimerEvent: {}
+[47.282276] (-) TimerEvent: {}
+[47.382944] (-) TimerEvent: {}
+[47.483619] (-) TimerEvent: {}
+[47.584278] (-) TimerEvent: {}
+[47.684913] (-) TimerEvent: {}
+[47.785553] (-) TimerEvent: {}
+[47.886156] (-) TimerEvent: {}
+[47.986787] (-) TimerEvent: {}
+[48.087451] (-) TimerEvent: {}
+[48.190713] (-) TimerEvent: {}
+[48.291356] (-) TimerEvent: {}
+[48.392136] (-) TimerEvent: {}
+[48.492766] (-) TimerEvent: {}
+[48.593479] (-) TimerEvent: {}
+[48.694112] (-) TimerEvent: {}
+[48.794737] (-) TimerEvent: {}
+[48.895386] (-) TimerEvent: {}
+[48.996094] (-) TimerEvent: {}
+[49.096785] (-) TimerEvent: {}
+[49.197528] (-) TimerEvent: {}
+[49.298206] (-) TimerEvent: {}
+[49.398875] (-) TimerEvent: {}
+[49.499557] (-) TimerEvent: {}
+[49.600410] (-) TimerEvent: {}
+[49.701219] (-) TimerEvent: {}
+[49.802327] (-) TimerEvent: {}
+[49.903061] (-) TimerEvent: {}
+[50.004056] (-) TimerEvent: {}
+[50.105224] (-) TimerEvent: {}
+[50.206020] (-) TimerEvent: {}
+[50.306730] (-) TimerEvent: {}
+[50.407598] (-) TimerEvent: {}
+[50.508344] (-) TimerEvent: {}
+[50.609107] (-) TimerEvent: {}
+[50.709783] (-) TimerEvent: {}
+[50.810483] (-) TimerEvent: {}
+[50.911335] (-) TimerEvent: {}
+[50.948101] (inference_pkg) StdoutLine: {'line': b'[100%] Built target inference_node\n'}
+[50.982696] (inference_pkg) CommandEnded: {'returncode': 0}
+[51.011822] (-) TimerEvent: {}
+[51.047256] (inference_pkg) JobProgress: {'identifier': 'inference_pkg', 'progress': 'install'}
+[51.075797] (inference_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg'], 'cwd': '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'deepracer'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg')]), 'shell': False}
+[51.112157] (-) TimerEvent: {}
+[51.213009] (-) TimerEvent: {}
+[51.262304] (inference_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.266110] (inference_pkg) StdoutLine: {'line': b'-- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/lib/inference_pkg/inference_node\n'}
+[51.293463] (inference_pkg) StdoutLine: {'line': b'-- Set runtime path of "/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/lib/inference_pkg/inference_node" to ""\n'}
+[51.294241] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include\n'}
+[51.294915] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg\n'}
+[51.296632] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg/image_process.hpp\n'}
+[51.298224] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg/inference_base.hpp\n'}
+[51.299334] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg/intel_inference_eng.hpp\n'}
+[51.299791] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch\n'}
+[51.300454] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/inference_pkg_launch.py\n'}
+[51.301125] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log\n'}
+[51.301659] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/build_2022-06-18_03-00-47\n'}
+[51.302028] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/build_2022-06-18_03-00-47/logger_all.log\n'}
+[51.302343] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/build_2022-06-18_03-00-47/events.log\n'}
+[51.302647] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/COLCON_IGNORE\n'}
+[51.302950] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/latest_build\n'}
+[51.303253] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/latest\n'}
+[51.303556] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/build\n'}
+[51.305390] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/build/.built_by\n'}
+[51.306001] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/build/COLCON_IGNORE\n'}
+[51.306344] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install\n'}
+[51.306651] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/.colcon_install_layout\n'}
+[51.306954] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/COLCON_IGNORE\n'}
+[51.307257] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.ps1\n'}
+[51.307596] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/_local_setup_util_ps1.py\n'}
+[51.307901] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.ps1\n'}
+[51.308306] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.sh\n'}
+[51.308815] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/_local_setup_util_sh.py\n'}
+[51.309786] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.sh\n'}
+[51.310190] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.bash\n'}
+[51.310492] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.bash\n'}
+[51.310787] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.zsh\n'}
+[51.311110] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.zsh\n'}
+[51.311402] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/ament_index/resource_index/package_run_dependencies/inference_pkg\n'}
+[51.311814] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/ament_index/resource_index/parent_prefix_path/inference_pkg\n'}
+[51.312158] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/ament_prefix_path.sh\n'}
+[51.312451] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/ament_prefix_path.dsv\n'}
+[51.312735] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/path.sh\n'}
+[51.313007] (-) TimerEvent: {}
+[51.313478] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/path.dsv\n'}
+[51.314055] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.bash\n'}
+[51.314443] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.sh\n'}
+[51.314884] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.zsh\n'}
+[51.315466] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.dsv\n'}
+[51.315799] (inference_pkg) StdoutLine: {'line': b'-- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/package.dsv\n'}
+[51.316134] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/ament_index/resource_index/packages/inference_pkg\n'}
+[51.316432] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[51.316762] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[51.317051] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/inference_pkgConfig.cmake\n'}
+[51.317338] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/inference_pkgConfig-version.cmake\n'}
+[51.317623] (inference_pkg) StdoutLine: {'line': b'-- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/package.xml\n'}
+[51.329109] (inference_pkg) CommandEnded: {'returncode': 0}
+[51.413301] (-) TimerEvent: {}
+[51.490253] (inference_pkg) JobEnded: {'identifier': 'inference_pkg', 'rc': 0}
+[51.494280] (-) EventReactorShutdown: {}

@@ -1,0 +1,57 @@
+[35m[1mScanning dependencies of target inference_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o[0m
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[KInferenceEngine::InferRequest {anonymous}::setMultiHeadModel(std::string, const string&, InferenceEngine::Core, std::vector<std::__cxx11::basic_string<char> >&, std::string&, const InferenceEngine::Precision&, const InferenceEngine::Precision&, std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:100:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std::pair<const std::__cxx11::basic_string<char>, std::shared_ptr<InferenceEngine::Data> >[m[K’ has no member named ‘[01m[KsetPrecision[m[K’
+  100 |         outputInfo->[01;31m[KsetPrecision[m[K(outputPrec);
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/image_process.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/inference_base.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/intel_inference_eng.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:17[m[K:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In member function ‘[01m[Kvoid IntelInferenceEngine::RLInferenceModel::sensorCB_user(deepracer_interfaces_pkg::msg::EvoSensorMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntelInferenceEngine::RLInferenceModel[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+  294 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Values : [%f, %f]\n", outputData[0], outputData[1]);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntelInferenceEngine::RLInferenceModel[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Values : [%f, %f]\n", outputData[0], outputData[1]);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Values : [%f, %f]\n", outputData[0], outputData[1]);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  294 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Values : [%f, %f]\n", outputData[0], outputData[1]);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/image_process.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/inference_base.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/intel_inference_eng.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:17[m[K:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntelInferenceEngine::RLInferenceModel[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+  294 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Values : [%f, %f]\n", outputData[0], outputData[1]);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:294:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass IntelInferenceEngine::RLInferenceModel[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+  294 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Values : [%f, %f]\n", outputData[0], outputData[1]);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

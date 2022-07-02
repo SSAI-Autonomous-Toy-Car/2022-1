@@ -1,0 +1,16 @@
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher//launch/deepracer_launcher.py
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/ament_index/resource_index/package_run_dependencies/deepracer_launcher
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/ament_index/resource_index/parent_prefix_path/deepracer_launcher
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/environment/ament_prefix_path.sh
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/environment/ament_prefix_path.dsv
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/environment/path.sh
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/environment/path.dsv
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/local_setup.bash
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/local_setup.sh
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/local_setup.zsh
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/local_setup.dsv
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/package.dsv
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/ament_index/resource_index/packages/deepracer_launcher
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/cmake/deepracer_launcherConfig.cmake
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/cmake/deepracer_launcherConfig-version.cmake
+/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher/share/deepracer_launcher/package.xml

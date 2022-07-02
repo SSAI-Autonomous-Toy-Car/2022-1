@@ -1,0 +1,22 @@
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In member function ‘[01m[Kvoid IntelInferenceEngine::RLInferenceModel::sensorCB_user(deepracer_interfaces_pkg::msg::EvoSensorMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:290:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+  290 |          [01;31m[Kauto[m[K output = inferRequest_.GetBlob(outputName);
+      |          [01;31m[K^~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:292:28:[m[K [01;31m[Kerror: [m[K‘[01m[Koutput[m[K’ was not declared in this scope
+  292 |          auto outputDims = [01;31m[Koutput[m[K->getTensorDesc().getDims();
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:293:128:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+  293 | :PrecisionTrait<InferenceEngine::Precision::FP32>::value_type[01;31m[K*[m[K>();
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:293:129:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  293 | PrecisionTrait<InferenceEngine::Precision::FP32>::value_type*[01;31m[K>[m[K();
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:293:131:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  293 | ecisionTrait<InferenceEngine::Precision::FP32>::value_type*>([01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

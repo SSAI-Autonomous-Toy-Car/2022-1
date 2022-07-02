@@ -1,0 +1,47 @@
+[1.115s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-status-led-pkg/status_led_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_led_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/install.log --single-version-externally-managed
+[2.100s] running egg_info
+[2.103s] creating ../../build/status_led_pkg/status_led_pkg.egg-info
+[2.105s] writing ../../build/status_led_pkg/status_led_pkg.egg-info/PKG-INFO
+[2.106s] writing dependency_links to ../../build/status_led_pkg/status_led_pkg.egg-info/dependency_links.txt
+[2.108s] writing entry points to ../../build/status_led_pkg/status_led_pkg.egg-info/entry_points.txt
+[2.110s] writing requirements to ../../build/status_led_pkg/status_led_pkg.egg-info/requires.txt
+[2.111s] writing top-level names to ../../build/status_led_pkg/status_led_pkg.egg-info/top_level.txt
+[2.118s] writing manifest file '../../build/status_led_pkg/status_led_pkg.egg-info/SOURCES.txt'
+[2.407s] reading manifest file '../../build/status_led_pkg/status_led_pkg.egg-info/SOURCES.txt'
+[2.411s] writing manifest file '../../build/status_led_pkg/status_led_pkg.egg-info/SOURCES.txt'
+[2.412s] running build
+[2.413s] running build_py
+[2.415s] creating /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build
+[2.416s] creating /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib
+[2.417s] creating /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg
+[2.418s] copying status_led_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg
+[2.420s] copying status_led_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg
+[2.422s] copying status_led_pkg/gpio_module.py -> /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg
+[2.424s] copying status_led_pkg/led_control.py -> /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg
+[2.426s] copying status_led_pkg/status_led_node.py -> /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg
+[2.429s] running install
+[2.434s] running install_lib
+[2.440s] creating /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg
+[2.441s] copying /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg/__init__.py -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg
+[2.442s] copying /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg/constants.py -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg
+[2.444s] copying /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg/gpio_module.py -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg
+[2.446s] copying /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg/led_control.py -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg
+[2.447s] copying /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build/lib/status_led_pkg/status_led_node.py -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg
+[2.451s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg/__init__.py to __init__.cpython-38.pyc
+[2.457s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg/constants.py to constants.cpython-38.pyc
+[2.459s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg/gpio_module.py to gpio_module.cpython-38.pyc
+[2.463s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg/led_control.py to led_control.cpython-38.pyc
+[2.465s] byte-compiling /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg/status_led_node.py to status_led_node.cpython-38.pyc
+[2.470s] running install_data
+[2.474s] creating /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/share/ament_index
+[2.475s] creating /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/share/ament_index/resource_index
+[2.476s] creating /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/share/ament_index/resource_index/packages
+[2.477s] copying resource/status_led_pkg -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/share/ament_index/resource_index/packages
+[2.478s] copying package.xml -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/share/status_led_pkg
+[2.480s] copying launch/status_led_pkg_launch.py -> /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/share/status_led_pkg
+[2.481s] running install_egg_info
+[2.491s] Copying ../../build/status_led_pkg/status_led_pkg.egg-info to /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg-0.0.1-py3.8.egg-info
+[2.496s] running install_scripts
+[2.574s] Installing status_led_node script to /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/status_led_pkg
+[2.576s] writing list of installed files to '/root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/install.log'
+[2.659s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-status-led-pkg/status_led_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_led_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/install.log --single-version-externally-managed

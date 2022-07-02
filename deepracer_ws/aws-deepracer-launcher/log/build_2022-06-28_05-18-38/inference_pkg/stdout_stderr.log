@@ -1,0 +1,39 @@
+[35m[1mScanning dependencies of target inference_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o[0m
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:170:2:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  170 |  /*
+      |   
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/image_process.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/inference_base.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/include/inference_pkg/intel_inference_eng.hpp:20[m[K,
+                 from [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:17[m[K:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::right1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:165:23:[m[K [01;31m[Kerror: [m[K‘[01m[KinferenceNode[m[K’ was not declared in this scope
+  165 |           RCLCPP_INFO([01;31m[KinferenceNode[m[K->get_logger(), "line : %f\n", line);
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:165:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |           [01;31m[KRCLCPP_INFO[m[K(inferenceNode->get_logger(), "line : %f\n", line);
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:165:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |           [01;31m[KRCLCPP_INFO[m[K(inferenceNode->get_logger(), "line : %f\n", line);
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:165:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  165 |           [01;31m[KRCLCPP_INFO[m[K(inferenceNode->get_logger(), "line : %f\n", line);
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:257:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klidar_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  257 |         for(const auto& [01;35m[Klidar_value[m[K : lidar_data) {
+      |                         [01;35m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

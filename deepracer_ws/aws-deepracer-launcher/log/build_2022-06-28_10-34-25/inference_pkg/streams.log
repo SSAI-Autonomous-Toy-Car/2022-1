@@ -1,0 +1,62 @@
+[0.300s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg -- -j2 -l2
+[1.192s] [35m[1mScanning dependencies of target inference_node[0m
+[1.642s] [ 25%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o[0m
+[15.671s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)[m[K’:
+[15.672s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:262:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klidar_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[15.672s]   262 |         for(const auto& [01;35m[Klidar_value[m[K : lidar_data) {
+[15.672s]       |                         [01;35m[K^~~~~~~~~~~[m[K
+[42.001s] [ 50%] [32m[1mLinking CXX executable inference_node[0m
+[50.934s] [100%] Built target inference_node
+[50.969s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg -- -j2 -l2
+[51.062s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg
+[51.248s] -- Install configuration: ""
+[51.252s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/lib/inference_pkg/inference_node
+[51.279s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/lib/inference_pkg/inference_node" to ""
+[51.280s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include
+[51.282s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg
+[51.283s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg/image_process.hpp
+[51.285s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg/inference_base.hpp
+[51.285s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/include/inference_pkg/intel_inference_eng.hpp
+[51.286s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch
+[51.286s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/inference_pkg_launch.py
+[51.287s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log
+[51.287s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/build_2022-06-18_03-00-47
+[51.288s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/build_2022-06-18_03-00-47/logger_all.log
+[51.288s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/build_2022-06-18_03-00-47/events.log
+[51.288s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/COLCON_IGNORE
+[51.289s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/latest_build
+[51.289s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/log/latest
+[51.291s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/build
+[51.291s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/build/.built_by
+[51.292s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/build/COLCON_IGNORE
+[51.292s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install
+[51.292s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/.colcon_install_layout
+[51.293s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/COLCON_IGNORE
+[51.293s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.ps1
+[51.293s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/_local_setup_util_ps1.py
+[51.294s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.ps1
+[51.294s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.sh
+[51.295s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/_local_setup_util_sh.py
+[51.295s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.sh
+[51.296s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.bash
+[51.296s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.bash
+[51.296s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/local_setup.zsh
+[51.297s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg//launch/install/setup.zsh
+[51.297s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/ament_index/resource_index/package_run_dependencies/inference_pkg
+[51.297s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/ament_index/resource_index/parent_prefix_path/inference_pkg
+[51.298s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/ament_prefix_path.sh
+[51.298s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/ament_prefix_path.dsv
+[51.298s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/path.sh
+[51.299s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/environment/path.dsv
+[51.300s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.bash
+[51.300s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.sh
+[51.301s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.zsh
+[51.301s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/local_setup.dsv
+[51.301s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/package.dsv
+[51.302s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/ament_index/resource_index/packages/inference_pkg
+[51.302s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.302s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.303s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/inference_pkgConfig.cmake
+[51.303s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/cmake/inference_pkgConfig-version.cmake
+[51.314s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg/share/inference_pkg/package.xml
+[51.315s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg

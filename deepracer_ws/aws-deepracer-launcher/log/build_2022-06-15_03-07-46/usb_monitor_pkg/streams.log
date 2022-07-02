@@ -1,0 +1,21 @@
+[1.990s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-usb-monitor-pkg/usb_monitor_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/usb_monitor_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/install.log --single-version-externally-managed
+[2.919s] running egg_info
+[2.923s] writing ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/PKG-INFO
+[2.924s] writing dependency_links to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/dependency_links.txt
+[2.926s] writing entry points to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/entry_points.txt
+[2.928s] writing requirements to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/requires.txt
+[2.929s] writing top-level names to ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/top_level.txt
+[3.066s] reading manifest file '../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/SOURCES.txt'
+[3.070s] writing manifest file '../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info/SOURCES.txt'
+[3.072s] running build
+[3.072s] running build_py
+[3.074s] running install
+[3.078s] running install_lib
+[3.084s] running install_data
+[3.248s] running install_egg_info
+[3.256s] removing '/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg-0.0.1-py3.8.egg-info' (and everything under it)
+[3.259s] Copying ../../build/usb_monitor_pkg/usb_monitor_pkg.egg-info to /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages/usb_monitor_pkg-0.0.1-py3.8.egg-info
+[3.264s] running install_scripts
+[3.339s] Installing usb_monitor_node script to /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/usb_monitor_pkg
+[3.340s] writing list of installed files to '/root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/install.log'
+[3.433s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-usb-monitor-pkg/usb_monitor_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/usb_monitor_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/usb_monitor_pkg/install.log --single-version-externally-managed

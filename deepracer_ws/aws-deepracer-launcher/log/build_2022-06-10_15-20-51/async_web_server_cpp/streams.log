@@ -1,0 +1,87 @@
+[0.239s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp': /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/async_web_server_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp
+[0.749s] -- The C compiler identification is GNU 9.3.0
+[1.479s] -- The CXX compiler identification is GNU 9.3.0
+[1.672s] -- Check for working C compiler: /usr/bin/cc
+[1.902s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.060s] -- Detecting C compiler ABI info
+[2.450s] -- Detecting C compiler ABI info - done
+[2.496s] -- Detecting C compile features
+[2.498s] -- Detecting C compile features - done
+[2.510s] -- Check for working CXX compiler: /usr/bin/c++
+[2.783s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.787s] -- Detecting CXX compiler ABI info
+[3.172s] -- Detecting CXX compiler ABI info - done
+[3.219s] -- Detecting CXX compile features
+[3.223s] -- Detecting CXX compile features - done
+[3.233s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.894s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system regex filesystem 
+[6.104s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.428s] -- Configuring done
+[6.466s] -- Generating done
+[6.474s] CMake Warning:
+[6.475s]   Manually-specified variables were not used by the project:
+[6.475s] 
+[6.475s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[6.475s] 
+[6.476s] 
+[6.476s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp
+[6.489s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp' returned '0': /usr/bin/cmake /root/deepracer_ws/aws-deepracer-launcher/async_web_server_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp
+[6.491s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp -- -j2 -l2
+[6.619s] [35m[1mScanning dependencies of target async_web_server_cpp[0m
+[6.661s] [  8%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_server.cpp.o[0m
+[23.221s] [ 16%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_connection.cpp.o[0m
+[38.455s] [ 25%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request_parser.cpp.o[0m
+[42.106s] [ 33%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_reply.cpp.o[0m
+[52.089s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/async_web_server_cpp/src/http_reply.cpp:[m[K In member function ‘[01m[Kbool async_web_server_cpp::FilesystemHttpRequestHandler::operator()(const async_web_server_cpp::HttpRequest&, boost::shared_ptr<async_web_server_cpp::HttpConnection>, const char*, const char*)[m[K’:
+[52.090s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/async_web_server_cpp/src/http_reply.cpp:355:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[52.090s]   355 | [01;35m[K}[m[K
+[52.090s]       | [01;35m[K^[m[K
+[53.889s] [ 41%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request_handler.cpp.o[0m
+[68.234s] [ 50%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_connection.cpp.o[0m
+[79.819s] [ 58%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_request_handler.cpp.o[0m
+[92.456s] [ 66%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_message.cpp.o[0m
+[98.500s] [ 75%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request.cpp.o[0m
+[107.335s] [ 83%] [32m[1mLinking CXX shared library libasync_web_server_cpp.so[0m
+[108.865s] [ 83%] Built target async_web_server_cpp
+[109.052s] [35m[1mScanning dependencies of target test_web_server[0m
+[109.095s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_web_server.dir/test_web_server.cpp.o[0m
+[120.806s] [100%] [32m[1mLinking CXX executable test_web_server[0m
+[121.594s] [100%] Built target test_web_server
+[121.627s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp' returned '0': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp -- -j2 -l2
+[122.032s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp
+[122.216s] -- Install configuration: ""
+[122.218s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.sh
+[122.220s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.dsv
+[122.221s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/ament_index/resource_index/package_run_dependencies/async_web_server_cpp
+[122.223s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/ament_index/resource_index/parent_prefix_path/async_web_server_cpp
+[122.225s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.sh
+[122.226s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.dsv
+[122.227s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.sh
+[122.229s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.dsv
+[122.230s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.bash
+[122.232s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.sh
+[122.233s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.zsh
+[122.234s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.dsv
+[122.236s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/package.dsv
+[122.237s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/ament_index/resource_index/packages/async_web_server_cpp
+[122.239s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[122.240s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[122.242s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[122.243s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig.cmake
+[122.244s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig-version.cmake
+[122.246s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share/async_web_server_cpp/package.xml
+[122.247s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/libasync_web_server_cpp.so
+[122.272s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp
+[122.273s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_header.hpp
+[122.274s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_request.hpp
+[122.275s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_request_handler.hpp
+[122.277s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_request_parser.hpp
+[122.278s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_server.hpp
+[122.279s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/websocket_connection.hpp
+[122.280s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/websocket_message.hpp
+[122.281s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/websocket_request_handler.hpp
+[122.282s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_connection.hpp
+[122.283s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/include/async_web_server_cpp/http_reply.hpp
+[122.293s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp' returned '0': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/async_web_server_cpp

@@ -1,0 +1,26 @@
+[0.204s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg -- -j2 -l2
+[1.177s] [100%] Built target camera_node
+[1.616s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg -- -j2 -l2
+[1.803s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg
+[1.840s] -- Install configuration: ""
+[1.854s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/lib/camera_pkg/camera_node
+[1.855s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg//launch
+[1.856s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg//launch/camera_pkg_launch.py
+[1.856s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/ament_index/resource_index/package_run_dependencies/camera_pkg
+[1.857s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/ament_index/resource_index/parent_prefix_path/camera_pkg
+[1.857s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.sh
+[1.857s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.dsv
+[1.857s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/path.sh
+[1.858s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/environment/path.dsv
+[1.858s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.bash
+[1.858s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.sh
+[1.859s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.zsh
+[1.860s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/local_setup.dsv
+[1.861s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/package.dsv
+[1.883s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/ament_index/resource_index/packages/camera_pkg
+[1.883s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.884s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.884s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig.cmake
+[1.884s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig-version.cmake
+[1.885s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg/share/camera_pkg/package.xml
+[1.885s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/camera_pkg

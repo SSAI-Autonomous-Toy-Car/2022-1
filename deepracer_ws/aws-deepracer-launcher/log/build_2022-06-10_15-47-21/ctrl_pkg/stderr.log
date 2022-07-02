@@ -1,0 +1,3 @@
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-ctrl-pkg/ctrl_pkg/src/ctrl_state.cpp:32:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K{anonymous}::MODEL_OPT_SRV[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+   32 |     const char* [01;35m[KMODEL_OPT_SRV[m[K = "/model_optimizer_pkg/model_optimizer_server";
+      |                 [01;35m[K^~~~~~~~~~~~~[m[K

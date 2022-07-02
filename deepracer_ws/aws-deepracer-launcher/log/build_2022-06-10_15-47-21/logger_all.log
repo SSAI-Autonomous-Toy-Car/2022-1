@@ -1,0 +1,519 @@
+[1.837s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ctrl_pkg']
+[1.837s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6dd02ebfd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ctrl_pkg'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6dd02ebfd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6dd0278490>)
+[2.040s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.046s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/deepracer_ws/aws-deepracer-launcher'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['ignore', 'ignore_ament_install']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'ignore'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'ignore_ament_install'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['colcon_pkg']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'colcon_pkg'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['colcon_meta']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'colcon_meta'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['ros']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'ros'
+[2.120s] DEBUG:colcon.colcon_core.package_identification:Package 'async_web_server_cpp' with type 'ros.catkin' and name 'async_web_server_cpp'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'ignore'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'ignore_ament_install'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extensions ['colcon_pkg']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'colcon_pkg'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extensions ['colcon_meta']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'colcon_meta'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extensions ['ros']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'ros'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extensions ['cmake', 'python']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'cmake'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'python'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extensions ['python_setup_py']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg) by extension 'python_setup_py'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extension 'ignore'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extension 'ignore_ament_install'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extensions ['colcon_pkg']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extension 'colcon_pkg'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extensions ['colcon_meta']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extension 'colcon_meta'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extensions ['ros']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-camera-pkg/camera_pkg) by extension 'ros'
+[2.129s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-camera-pkg/camera_pkg' with type 'ros.ament_cmake' and name 'camera_pkg'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'ignore'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'ignore_ament_install'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extensions ['colcon_pkg']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'colcon_pkg'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extensions ['colcon_meta']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'colcon_meta'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extensions ['ros']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'ros'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extensions ['cmake', 'python']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'cmake'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'python'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extensions ['python_setup_py']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg) by extension 'python_setup_py'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extension 'ignore'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extension 'ignore_ament_install'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extensions ['colcon_pkg']
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extension 'colcon_pkg'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extensions ['colcon_meta']
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extension 'colcon_meta'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extensions ['ros']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-ctrl-pkg/ctrl_pkg) by extension 'ros'
+[2.139s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-ctrl-pkg/ctrl_pkg' with type 'ros.ament_cmake' and name 'ctrl_pkg'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'ignore'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'ignore_ament_install'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extensions ['colcon_pkg']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'colcon_pkg'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extensions ['colcon_meta']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'colcon_meta'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extensions ['ros']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'ros'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extensions ['cmake', 'python']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'cmake'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'python'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extensions ['python_setup_py']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg) by extension 'python_setup_py'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extension 'ignore'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extension 'ignore_ament_install'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extensions ['colcon_pkg']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extension 'colcon_pkg'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extensions ['colcon_meta']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extension 'colcon_meta'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extensions ['ros']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-device-info-pkg/device_info_pkg) by extension 'ros'
+[2.148s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-device-info-pkg/device_info_pkg' with type 'ros.ament_python' and name 'device_info_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'ignore_ament_install'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extensions ['colcon_pkg']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'colcon_pkg'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extensions ['colcon_meta']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extensions ['ros']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'ros'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extensions ['cmake', 'python']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'cmake'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'python'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extensions ['python_setup_py']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg) by extension 'python_setup_py'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extension 'ignore_ament_install'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extensions ['colcon_pkg']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extension 'colcon_pkg'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extensions ['colcon_meta']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extension 'colcon_meta'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extensions ['ros']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-i2c-pkg/i2c_pkg) by extension 'ros'
+[2.157s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-i2c-pkg/i2c_pkg' with type 'ros.ament_cmake' and name 'i2c_pkg'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'ignore'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'ignore_ament_install'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extensions ['colcon_pkg']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'colcon_pkg'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'colcon_meta'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extensions ['ros']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'ros'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extensions ['cmake', 'python']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'cmake'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'python'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extensions ['python_setup_py']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg) by extension 'python_setup_py'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extension 'ignore'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extension 'ignore_ament_install'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extensions ['colcon_pkg']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extension 'colcon_pkg'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extensions ['colcon_meta']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extension 'colcon_meta'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extensions ['ros']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-inference-pkg/inference_pkg) by extension 'ros'
+[2.166s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-inference-pkg/inference_pkg' with type 'ros.ament_cmake' and name 'inference_pkg'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'ignore'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'ignore_ament_install'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extensions ['colcon_pkg']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'colcon_pkg'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extensions ['colcon_meta']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'colcon_meta'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extensions ['ros']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'ros'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extensions ['cmake', 'python']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'cmake'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'python'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extensions ['python_setup_py']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg) by extension 'python_setup_py'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extension 'ignore_ament_install'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extensions ['colcon_pkg']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extension 'colcon_pkg'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extensions ['colcon_meta']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extension 'colcon_meta'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extensions ['ros']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg) by extension 'ros'
+[2.174s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg' with type 'ros.ament_cmake' and name 'deepracer_interfaces_pkg'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'ignore'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'ignore_ament_install'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extensions ['colcon_pkg']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'colcon_pkg'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extensions ['colcon_meta']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'colcon_meta'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extensions ['ros']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'ros'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extensions ['cmake', 'python']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'cmake'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'python'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extensions ['python_setup_py']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg) by extension 'python_setup_py'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extension 'ignore_ament_install'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extensions ['colcon_pkg']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extension 'colcon_pkg'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extensions ['colcon_meta']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extension 'colcon_meta'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extensions ['ros']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-model-optimizer-pkg/model_optimizer_pkg) by extension 'ros'
+[2.183s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-model-optimizer-pkg/model_optimizer_pkg' with type 'ros.ament_python' and name 'model_optimizer_pkg'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'ignore'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'ignore_ament_install'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extensions ['colcon_pkg']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'colcon_pkg'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extensions ['colcon_meta']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'colcon_meta'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extensions ['ros']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'ros'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extensions ['cmake', 'python']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'cmake'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'python'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extensions ['python_setup_py']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg) by extension 'python_setup_py'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extension 'ignore'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extension 'ignore_ament_install'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extensions ['colcon_pkg']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extension 'colcon_pkg'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extensions ['colcon_meta']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extension 'colcon_meta'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extensions ['ros']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-navigation-pkg/deepracer_navigation_pkg) by extension 'ros'
+[2.192s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-navigation-pkg/deepracer_navigation_pkg' with type 'ros.ament_python' and name 'deepracer_navigation_pkg'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'ignore'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'ignore_ament_install'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extensions ['colcon_pkg']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'colcon_pkg'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extensions ['colcon_meta']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'colcon_meta'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extensions ['ros']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'ros'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extensions ['cmake', 'python']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'cmake'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'python'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extensions ['python_setup_py']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg) by extension 'python_setup_py'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extension 'ignore'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extension 'ignore_ament_install'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extensions ['colcon_meta']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extension 'colcon_meta'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extensions ['ros']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg) by extension 'ros'
+[2.201s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg' with type 'ros.ament_cmake' and name 'sensor_fusion_pkg'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'ignore'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'ignore_ament_install'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extensions ['colcon_pkg']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'colcon_pkg'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extensions ['colcon_meta']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'colcon_meta'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extensions ['ros']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'ros'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extensions ['cmake', 'python']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'cmake'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'python'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extensions ['python_setup_py']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg) by extension 'python_setup_py'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extension 'ignore'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extension 'ignore_ament_install'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extensions ['colcon_pkg']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extension 'colcon_pkg'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extensions ['colcon_meta']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extension 'colcon_meta'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extensions ['ros']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-servo-pkg/servo_pkg) by extension 'ros'
+[2.209s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-servo-pkg/servo_pkg' with type 'ros.ament_cmake' and name 'servo_pkg'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'ignore'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'ignore_ament_install'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extensions ['colcon_pkg']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'colcon_pkg'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extensions ['colcon_meta']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'colcon_meta'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extensions ['ros']
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'ros'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extensions ['cmake', 'python']
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'cmake'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'python'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extensions ['python_setup_py']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg) by extension 'python_setup_py'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extension 'ignore'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extension 'ignore_ament_install'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extensions ['colcon_pkg']
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extension 'colcon_pkg'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extensions ['colcon_meta']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extension 'colcon_meta'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extensions ['ros']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-status-led-pkg/status_led_pkg) by extension 'ros'
+[2.219s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-status-led-pkg/status_led_pkg' with type 'ros.ament_python' and name 'status_led_pkg'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'ignore'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'ignore_ament_install'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extensions ['colcon_pkg']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'colcon_pkg'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extensions ['colcon_meta']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'colcon_meta'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extensions ['ros']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'ros'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extensions ['cmake', 'python']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'cmake'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'python'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extensions ['python_setup_py']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg) by extension 'python_setup_py'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extension 'ignore'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extension 'ignore_ament_install'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extensions ['colcon_pkg']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extension 'colcon_pkg'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extensions ['colcon_meta']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extension 'colcon_meta'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extensions ['ros']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-systems-pkg/deepracer_systems_pkg) by extension 'ros'
+[2.229s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-systems-pkg/deepracer_systems_pkg' with type 'ros.ament_python' and name 'deepracer_systems_pkg'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'ignore'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'ignore_ament_install'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extensions ['colcon_pkg']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'colcon_pkg'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extensions ['colcon_meta']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'colcon_meta'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extensions ['ros']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'ros'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extensions ['cmake', 'python']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'cmake'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'python'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extensions ['python_setup_py']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg) by extension 'python_setup_py'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extension 'ignore'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extension 'ignore_ament_install'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extensions ['colcon_pkg']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extension 'colcon_pkg'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extensions ['colcon_meta']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extension 'colcon_meta'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extensions ['ros']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-usb-monitor-pkg/usb_monitor_pkg) by extension 'ros'
+[2.237s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-usb-monitor-pkg/usb_monitor_pkg' with type 'ros.ament_python' and name 'usb_monitor_pkg'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'ignore'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'ignore_ament_install'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extensions ['colcon_pkg']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'colcon_pkg'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extensions ['colcon_meta']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'ros'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extensions ['cmake', 'python']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'cmake'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'python'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extensions ['python_setup_py']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg) by extension 'python_setup_py'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extension 'ignore'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extension 'ignore_ament_install'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extensions ['colcon_pkg']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extension 'colcon_pkg'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extensions ['colcon_meta']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extension 'colcon_meta'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extensions ['ros']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(aws-deepracer-webserver-pkg/webserver_pkg) by extension 'ros'
+[2.247s] DEBUG:colcon.colcon_core.package_identification:Package 'aws-deepracer-webserver-pkg/webserver_pkg' with type 'ros.ament_python' and name 'webserver_pkg'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extensions ['ignore', 'ignore_ament_install']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extension 'ignore'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extension 'ignore_ament_install'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extensions ['colcon_pkg']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extension 'colcon_pkg'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extensions ['colcon_meta']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extension 'colcon_meta'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extensions ['ros']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(deepracer_launcher) by extension 'ros'
+[2.257s] DEBUG:colcon.colcon_core.package_identification:Package 'deepracer_launcher' with type 'ros.ament_cmake' and name 'deepracer_launcher'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ignore', 'ignore_ament_install']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ignore_ament_install'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_pkg']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_pkg'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['colcon_meta']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'colcon_meta'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['ros']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'ros'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['cmake', 'python']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'cmake'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extensions ['python_setup_py']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(media) by extension 'python_setup_py'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[2.268s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros2'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore_ament_install'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_pkg']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_pkg'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_meta']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_meta'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ros']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ros'
+[2.273s] DEBUG:colcon.colcon_core.package_identification:Package 'web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[2.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'async_web_server_cpp' in 'async_web_server_cpp'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'deepracer_interfaces_pkg' in 'aws-deepracer-interfaces-pkg/deepracer_interfaces_pkg'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros2' in 'rplidar_ros'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_pkg' in 'aws-deepracer-camera-pkg/camera_pkg'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'deepracer_navigation_pkg' in 'aws-deepracer-navigation-pkg/deepracer_navigation_pkg'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'device_info_pkg' in 'aws-deepracer-device-info-pkg/device_info_pkg'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'i2c_pkg' in 'aws-deepracer-i2c-pkg/i2c_pkg'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'inference_pkg' in 'aws-deepracer-inference-pkg/inference_pkg'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'model_optimizer_pkg' in 'aws-deepracer-model-optimizer-pkg/model_optimizer_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_fusion_pkg' in 'aws-deepracer-sensor-fusion-pkg/sensor_fusion_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'servo_pkg' in 'aws-deepracer-servo-pkg/servo_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'status_led_pkg' in 'aws-deepracer-status-led-pkg/status_led_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usb_monitor_pkg' in 'aws-deepracer-usb-monitor-pkg/usb_monitor_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'web_video_server' in 'web_video_server'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'deepracer_systems_pkg' in 'aws-deepracer-systems-pkg/deepracer_systems_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'webserver_pkg' in 'aws-deepracer-webserver-pkg/webserver_pkg'
+[2.567s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'deepracer_launcher' in 'deepracer_launcher'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'cmake_args' from command line to 'None'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'cmake_target' from command line to 'None'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.583s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.584s] Level 5:colcon.colcon_core.verb:set package 'ctrl_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.584s] DEBUG:colcon.colcon_core.verb:Building package 'ctrl_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg', 'merge_install': False, 'path': '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-ctrl-pkg/ctrl_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.585s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-ctrl-pkg/ctrl_pkg' with build type 'ament_cmake'
+[2.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-ctrl-pkg/ctrl_pkg'
+[2.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.841s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg -- -j2 -l2
+[58.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg -- -j2 -l2
+[58.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg
+[58.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ctrl_pkg)
+[58.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/ctrl_pkg
+[58.524s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg' for CMake module files
+[58.526s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg' for CMake config files
+[58.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_pkg', 'cmake_prefix_path')
+[58.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/hook/cmake_prefix_path.ps1'
+[58.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/hook/cmake_prefix_path.dsv'
+[58.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/hook/cmake_prefix_path.sh'
+[58.546s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/lib'
+[58.547s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/bin'
+[58.548s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/lib/pkgconfig/ctrl_pkg.pc'
+[58.548s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/lib/python3.8/site-packages'
+[58.555s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.ps1'
+[58.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.dsv'
+[58.567s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.sh'
+[58.572s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.bash'
+[58.581s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.zsh'
+[58.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/colcon-core/packages/ctrl_pkg)
+[58.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ctrl_pkg)
+[58.704s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg' for CMake module files
+[58.706s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg' for CMake config files
+[58.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_pkg', 'cmake_prefix_path')
+[58.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/hook/cmake_prefix_path.ps1'
+[58.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/hook/cmake_prefix_path.dsv'
+[58.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/hook/cmake_prefix_path.sh'
+[58.715s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/lib'
+[58.716s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/bin'
+[58.720s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/lib/pkgconfig/ctrl_pkg.pc'
+[58.721s] Level 1:colcon.colcon_core.environment:checking '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/lib/python3.8/site-packages'
+[58.723s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.ps1'
+[58.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.dsv'
+[58.732s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.sh'
+[58.734s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.bash'
+[58.736s] INFO:colcon.colcon_core.shell:Creating package script '/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/ctrl_pkg/package.zsh'
+[58.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg/share/colcon-core/packages/ctrl_pkg)
+[58.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[58.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[58.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[58.743s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[59.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[59.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[59.043s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[59.098s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[59.099s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[59.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/deepracer_ws/aws-deepracer-launcher/install/local_setup.ps1'
+[59.109s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/deepracer_ws/aws-deepracer-launcher/install/_local_setup_util_ps1.py'
+[59.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/deepracer_ws/aws-deepracer-launcher/install/setup.ps1'
+[59.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/deepracer_ws/aws-deepracer-launcher/install/local_setup.sh'
+[59.141s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/deepracer_ws/aws-deepracer-launcher/install/_local_setup_util_sh.py'
+[59.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/deepracer_ws/aws-deepracer-launcher/install/setup.sh'
+[59.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/deepracer_ws/aws-deepracer-launcher/install/local_setup.bash'
+[59.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/deepracer_ws/aws-deepracer-launcher/install/setup.bash'
+[59.178s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/deepracer_ws/aws-deepracer-launcher/install/local_setup.zsh'
+[59.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/deepracer_ws/aws-deepracer-launcher/install/setup.zsh'

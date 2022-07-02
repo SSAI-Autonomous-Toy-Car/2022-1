@@ -1,0 +1,33 @@
+[0.320s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/web_video_server': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib PKG_CONFIG_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/web_video_server -- -j2 -l2
+[1.784s] [100%] Built target web_video_server
+[1.944s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib PKG_CONFIG_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/web_video_server -- -j2 -l2
+[2.149s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/web_video_server': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib PKG_CONFIG_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/web_video_server
+[2.210s] -- Install configuration: ""
+[2.211s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/lib/web_video_server/web_video_server
+[2.212s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server
+[2.213s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/h264_streamer.h
+[2.214s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/image_streamer.h
+[2.214s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[2.215s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/libav_streamer.h
+[2.215s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/multipart_stream.h
+[2.216s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/png_streamers.h
+[2.217s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[2.218s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/vp8_streamer.h
+[2.218s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/vp9_streamer.h
+[2.219s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/include/web_video_server/web_video_server.h
+[2.222s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[2.233s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[2.236s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[2.243s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[2.244s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/environment/path.sh
+[2.246s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/environment/path.dsv
+[2.247s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/local_setup.bash
+[2.248s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/local_setup.sh
+[2.249s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/local_setup.zsh
+[2.250s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/local_setup.dsv
+[2.251s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/package.dsv
+[2.255s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[2.257s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[2.259s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[2.259s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/web_video_server/share/web_video_server/package.xml
+[2.290s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib PKG_CONFIG_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/web_video_server

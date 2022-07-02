@@ -1,0 +1,25 @@
+[3.665s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-systems-pkg/deepracer_systems_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deepracer_systems_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/deepracer_systems_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/deepracer_systems_pkg/install.log --single-version-externally-managed
+[6.660s] running egg_info
+[6.663s] writing ../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/PKG-INFO
+[6.667s] writing dependency_links to ../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/dependency_links.txt
+[6.669s] writing entry points to ../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/entry_points.txt
+[6.675s] writing requirements to ../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/requires.txt
+[6.677s] writing top-level names to ../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/top_level.txt
+[7.216s] reading manifest file '../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/SOURCES.txt'
+[7.227s] writing manifest file '../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info/SOURCES.txt'
+[7.229s] running build
+[7.230s] running build_py
+[7.278s] running install
+[7.291s] running install_lib
+[7.330s] running install_data
+[7.337s] running install_egg_info
+[7.363s] removing '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages/deepracer_systems_pkg-0.0.1-py3.8.egg-info' (and everything under it)
+[7.366s] Copying ../../build/deepracer_systems_pkg/deepracer_systems_pkg.egg-info to /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages/deepracer_systems_pkg-0.0.1-py3.8.egg-info
+[7.375s] running install_scripts
+[7.615s] Installing deepracer_systems_scripts_node script to /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/deepracer_systems_pkg
+[7.617s] Installing model_loader_node script to /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/deepracer_systems_pkg
+[7.623s] Installing network_monitor_node script to /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/deepracer_systems_pkg
+[7.625s] Installing otg_control_node script to /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/deepracer_systems_pkg
+[7.626s] Installing software_update_node script to /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/deepracer_systems_pkg
+[7.635s] writing list of installed files to '/root/deepracer_ws/aws-deepracer-launcher/build/deepracer_systems_pkg/install.log'
+[7.908s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-systems-pkg/deepracer_systems_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/deepracer_systems_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/deepracer_systems_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/deepracer_systems_pkg/install.log --single-version-externally-managed

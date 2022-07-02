@@ -1,0 +1,29 @@
+[0.263s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg -- -j2 -l2
+[1.588s] [100%] Built target battery_node
+[1.705s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg -- -j2 -l2
+[2.255s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg
+[2.520s] -- Install configuration: ""
+[2.520s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/lib/i2c_pkg/battery_node
+[2.520s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/include
+[2.521s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/include/i2c_pkg
+[2.521s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/include/i2c_pkg/i2c.hpp
+[2.521s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg//launch
+[2.522s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg//launch/i2c_pkg_launch.py
+[2.522s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/ament_index/resource_index/package_run_dependencies/i2c_pkg
+[2.522s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/ament_index/resource_index/parent_prefix_path/i2c_pkg
+[2.522s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/environment/ament_prefix_path.sh
+[2.526s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/environment/ament_prefix_path.dsv
+[2.526s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/environment/path.sh
+[2.527s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/environment/path.dsv
+[2.527s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/local_setup.bash
+[2.527s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/local_setup.sh
+[2.527s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/local_setup.zsh
+[2.532s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/local_setup.dsv
+[2.532s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/package.dsv
+[2.547s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/ament_index/resource_index/packages/i2c_pkg
+[2.548s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.548s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.548s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/cmake/i2c_pkgConfig.cmake
+[2.568s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/cmake/i2c_pkgConfig-version.cmake
+[2.568s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg/share/i2c_pkg/package.xml
+[2.569s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/i2c_pkg

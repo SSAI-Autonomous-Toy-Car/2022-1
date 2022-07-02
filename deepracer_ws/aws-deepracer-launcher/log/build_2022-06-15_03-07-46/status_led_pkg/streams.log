@@ -1,0 +1,21 @@
+[1.245s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-status-led-pkg/status_led_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_led_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/install.log --single-version-externally-managed
+[2.450s] running egg_info
+[2.455s] writing ../../build/status_led_pkg/status_led_pkg.egg-info/PKG-INFO
+[2.457s] writing dependency_links to ../../build/status_led_pkg/status_led_pkg.egg-info/dependency_links.txt
+[2.459s] writing entry points to ../../build/status_led_pkg/status_led_pkg.egg-info/entry_points.txt
+[2.461s] writing requirements to ../../build/status_led_pkg/status_led_pkg.egg-info/requires.txt
+[2.463s] writing top-level names to ../../build/status_led_pkg/status_led_pkg.egg-info/top_level.txt
+[2.614s] reading manifest file '../../build/status_led_pkg/status_led_pkg.egg-info/SOURCES.txt'
+[2.619s] writing manifest file '../../build/status_led_pkg/status_led_pkg.egg-info/SOURCES.txt'
+[2.620s] running build
+[2.621s] running build_py
+[2.624s] running install
+[2.628s] running install_lib
+[2.787s] running install_data
+[2.790s] running install_egg_info
+[2.798s] removing '/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg-0.0.1-py3.8.egg-info' (and everything under it)
+[2.801s] Copying ../../build/status_led_pkg/status_led_pkg.egg-info to /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages/status_led_pkg-0.0.1-py3.8.egg-info
+[2.805s] running install_scripts
+[2.884s] Installing status_led_node script to /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/status_led_pkg
+[2.887s] writing list of installed files to '/root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/install.log'
+[2.984s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-status-led-pkg/status_led_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/status_led_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/status_led_pkg/install.log --single-version-externally-managed

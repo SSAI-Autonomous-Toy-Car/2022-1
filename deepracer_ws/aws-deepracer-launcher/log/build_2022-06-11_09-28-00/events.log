@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000621] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.000970] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.004390] (-) JobUnselected: {'identifier': 'ctrl_pkg'}
+[0.004977] (-) JobUnselected: {'identifier': 'deepracer_interfaces_pkg'}
+[0.005152] (-) JobUnselected: {'identifier': 'deepracer_launcher'}
+[0.005235] (-) JobUnselected: {'identifier': 'deepracer_navigation_pkg'}
+[0.005314] (-) JobUnselected: {'identifier': 'deepracer_systems_pkg'}
+[0.005393] (-) JobUnselected: {'identifier': 'device_info_pkg'}
+[0.005876] (-) JobUnselected: {'identifier': 'i2c_pkg'}
+[0.006051] (-) JobUnselected: {'identifier': 'model_optimizer_pkg'}
+[0.006134] (-) JobUnselected: {'identifier': 'rplidar_ros2'}
+[0.006214] (-) JobUnselected: {'identifier': 'sensor_fusion_pkg'}
+[0.006731] (-) JobUnselected: {'identifier': 'servo_pkg'}
+[0.006898] (-) JobUnselected: {'identifier': 'status_led_pkg'}
+[0.007226] (-) JobUnselected: {'identifier': 'usb_monitor_pkg'}
+[0.007438] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.007523] (-) JobUnselected: {'identifier': 'webserver_pkg'}
+[0.007618] (inference_pkg) JobQueued: {'identifier': 'inference_pkg', 'dependencies': OrderedDict([('deepracer_interfaces_pkg', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg')])}
+[0.008273] (inference_pkg) JobStarted: {'identifier': 'inference_pkg'}
+[0.062156] (inference_pkg) JobProgress: {'identifier': 'inference_pkg', 'progress': 'cmake'}
+[0.065420] (inference_pkg) JobProgress: {'identifier': 'inference_pkg', 'progress': 'build'}
+[0.069443] (inference_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg', '--', '-j2', '-l2'], 'cwd': '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('ROS_PACKAGE_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib:/home/deepracer/intel/openvino_2022/tools/compile_tool:/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/lib:/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl/lib:/home/deepracer/intel/openvino_2022/runtime/lib/intel64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HDDL_INSTALL_DIR', '/home/deepracer/intel/openvino_2022/runtime/3rdparty/hddl'), ('TBB_DIR', '/home/deepracer/intel/openvino_2022/runtime/3rdparty/tbb/cmake'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/home/deepracer/intel/openvino_2022'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ngraph_DIR', '/home/deepracer/intel/openvino_2022/runtime/cmake'), ('SUDO_USER', 'deepracer'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('InferenceEngine_DIR', '/home/deepracer/intel/openvino_2022/runtime/cmake'), ('PWD', '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg/lib/python3.8/site-packages:/home/deepracer/intel/openvino_2022/python/python3.8:/home/deepracer/intel/openvino_2022/python/python3:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('OpenVINO_DIR', '/home/deepracer/intel/openvino_2022/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_launcher:/root/deepracer_ws/aws-deepracer-launcher/install/web_video_server:/root/deepracer_ws/aws-deepracer-launcher/install/ctrl_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/sensor_fusion_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2:/root/deepracer_ws/aws-deepracer-launcher/install/inference_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/i2c_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/camera_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/webserver_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_systems_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/usb_monitor_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/status_led_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/model_optimizer_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_navigation_pkg:/opt/ros/foxy:/root/deepracer_ws/aws-deepracer-launcher/install/async_web_server_cpp')]), 'shell': False}
+[0.095529] (-) TimerEvent: {}
+[0.196373] (-) TimerEvent: {}
+[0.246764] (inference_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target inference_node\x1b[0m\n'}
+[0.296649] (-) TimerEvent: {}
+[0.397585] (-) TimerEvent: {}
+[0.442614] (inference_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o\x1b[0m\n'}
+[0.497781] (-) TimerEvent: {}
+[0.598529] (-) TimerEvent: {}
+[0.701140] (-) TimerEvent: {}
+[0.801863] (-) TimerEvent: {}
+[0.902640] (-) TimerEvent: {}
+[1.003396] (-) TimerEvent: {}
+[1.104068] (-) TimerEvent: {}
+[1.204752] (-) TimerEvent: {}
+[1.305511] (-) TimerEvent: {}
+[1.406287] (-) TimerEvent: {}
+[1.507006] (-) TimerEvent: {}
+[1.607806] (-) TimerEvent: {}
+[1.708567] (-) TimerEvent: {}
+[1.809345] (-) TimerEvent: {}
+[1.910110] (-) TimerEvent: {}
+[2.010811] (-) TimerEvent: {}
+[2.111609] (-) TimerEvent: {}
+[2.212371] (-) TimerEvent: {}
+[2.313086] (-) TimerEvent: {}
+[2.413824] (-) TimerEvent: {}
+[2.514596] (-) TimerEvent: {}
+[2.615295] (-) TimerEvent: {}
+[2.715946] (-) TimerEvent: {}
+[2.816644] (-) TimerEvent: {}
+[2.917328] (-) TimerEvent: {}
+[3.018098] (-) TimerEvent: {}
+[3.118806] (-) TimerEvent: {}
+[3.219506] (-) TimerEvent: {}
+[3.320250] (-) TimerEvent: {}
+[3.421001] (-) TimerEvent: {}
+[3.521762] (-) TimerEvent: {}
+[3.622480] (-) TimerEvent: {}
+[3.723198] (-) TimerEvent: {}
+[3.823853] (-) TimerEvent: {}
+[3.924587] (-) TimerEvent: {}
+[4.025353] (-) TimerEvent: {}
+[4.126058] (-) TimerEvent: {}
+[4.226841] (-) TimerEvent: {}
+[4.327586] (-) TimerEvent: {}
+[4.428259] (-) TimerEvent: {}
+[4.529025] (-) TimerEvent: {}
+[4.629707] (-) TimerEvent: {}
+[4.730473] (-) TimerEvent: {}
+[4.831161] (-) TimerEvent: {}
+[4.931832] (-) TimerEvent: {}
+[5.032507] (-) TimerEvent: {}
+[5.133263] (-) TimerEvent: {}
+[5.233944] (-) TimerEvent: {}
+[5.334704] (-) TimerEvent: {}
+[5.435455] (-) TimerEvent: {}
+[5.536220] (-) TimerEvent: {}
+[5.636986] (-) TimerEvent: {}
+[5.737652] (-) TimerEvent: {}
+[5.838405] (-) TimerEvent: {}
+[5.939216] (-) TimerEvent: {}
+[6.039945] (-) TimerEvent: {}
+[6.140702] (-) TimerEvent: {}
+[6.241370] (-) TimerEvent: {}
+[6.342152] (-) TimerEvent: {}
+[6.442858] (-) TimerEvent: {}
+[6.543665] (-) TimerEvent: {}
+[6.644429] (-) TimerEvent: {}
+[6.745207] (-) TimerEvent: {}
+[6.845989] (-) TimerEvent: {}
+[6.946752] (-) TimerEvent: {}
+[7.047470] (-) TimerEvent: {}
+[7.148168] (-) TimerEvent: {}
+[7.248922] (-) TimerEvent: {}
+[7.349601] (-) TimerEvent: {}
+[7.450382] (-) TimerEvent: {}
+[7.551173] (-) TimerEvent: {}
+[7.651878] (-) TimerEvent: {}
+[7.752652] (-) TimerEvent: {}
+[7.853362] (-) TimerEvent: {}
+[7.954093] (-) TimerEvent: {}
+[8.054848] (-) TimerEvent: {}
+[8.155604] (-) TimerEvent: {}
+[8.256350] (-) TimerEvent: {}
+[8.357058] (-) TimerEvent: {}
+[8.457797] (-) TimerEvent: {}
+[8.558552] (-) TimerEvent: {}
+[8.659265] (-) TimerEvent: {}
+[8.760011] (-) TimerEvent: {}
+[8.860712] (-) TimerEvent: {}
+[8.961481] (-) TimerEvent: {}
+[9.062236] (-) TimerEvent: {}
+[9.162907] (-) TimerEvent: {}
+[9.263695] (-) TimerEvent: {}
+[9.364376] (-) TimerEvent: {}
+[9.465125] (-) TimerEvent: {}
+[9.565797] (-) TimerEvent: {}
+[9.666562] (-) TimerEvent: {}
+[9.767276] (-) TimerEvent: {}
+[9.868035] (-) TimerEvent: {}
+[9.968793] (-) TimerEvent: {}
+[10.069502] (-) TimerEvent: {}
+[10.170248] (-) TimerEvent: {}
+[10.270959] (-) TimerEvent: {}
+[10.371753] (-) TimerEvent: {}
+[10.472576] (-) TimerEvent: {}
+[10.573293] (-) TimerEvent: {}
+[10.674060] (-) TimerEvent: {}
+[10.774779] (-) TimerEvent: {}
+[10.875571] (-) TimerEvent: {}
+[10.967635] (inference_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KInferenceEngine::InferRequest {anonymous}::setMultiHeadModel(std::string, const string&, InferenceEngine::Core, std::vector<std::__cxx11::basic_string<char> >&, std::string&, const InferenceEngine::Precision&, const InferenceEngine::Precision&, std::shared_ptr<rclcpp::Node>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.968379] (inference_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:100:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct std::pair<const std::__cxx11::basic_string<char>, std::shared_ptr<InferenceEngine::Data> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KsetPrecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.968725] (inference_pkg) StderrLine: {'line': b'  100 |         outputInfo->\x1b[01;31m\x1b[KsetPrecision\x1b[m\x1b[K(outputPrec);\n'}
+[10.969015] (inference_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.975742] (-) TimerEvent: {}
+[11.076667] (-) TimerEvent: {}
+[11.177369] (-) TimerEvent: {}
+[11.278059] (-) TimerEvent: {}
+[11.378827] (-) TimerEvent: {}
+[11.479576] (-) TimerEvent: {}
+[11.580320] (-) TimerEvent: {}
+[11.681093] (-) TimerEvent: {}
+[11.781841] (-) TimerEvent: {}
+[11.882497] (-) TimerEvent: {}
+[11.983272] (-) TimerEvent: {}
+[12.083990] (-) TimerEvent: {}
+[12.184759] (-) TimerEvent: {}
+[12.285522] (-) TimerEvent: {}
+[12.386193] (-) TimerEvent: {}
+[12.486948] (-) TimerEvent: {}
+[12.587690] (-) TimerEvent: {}
+[12.688440] (-) TimerEvent: {}
+[12.789145] (-) TimerEvent: {}
+[12.889828] (-) TimerEvent: {}
+[12.990591] (-) TimerEvent: {}
+[13.091262] (-) TimerEvent: {}
+[13.192006] (-) TimerEvent: {}
+[13.292770] (-) TimerEvent: {}
+[13.393456] (-) TimerEvent: {}
+[13.494158] (-) TimerEvent: {}
+[13.594820] (-) TimerEvent: {}
+[13.695617] (-) TimerEvent: {}
+[13.796262] (-) TimerEvent: {}
+[13.897028] (-) TimerEvent: {}
+[13.997739] (-) TimerEvent: {}
+[14.098487] (-) TimerEvent: {}
+[14.199194] (-) TimerEvent: {}
+[14.299905] (-) TimerEvent: {}
+[14.400649] (-) TimerEvent: {}
+[14.501433] (-) TimerEvent: {}
+[14.602131] (-) TimerEvent: {}
+[14.702788] (-) TimerEvent: {}
+[14.803574] (-) TimerEvent: {}
+[14.904249] (-) TimerEvent: {}
+[15.005003] (-) TimerEvent: {}
+[15.105707] (-) TimerEvent: {}
+[15.206379] (-) TimerEvent: {}
+[15.307067] (-) TimerEvent: {}
+[15.407804] (-) TimerEvent: {}
+[15.508558] (-) TimerEvent: {}
+[15.609233] (-) TimerEvent: {}
+[15.709970] (-) TimerEvent: {}
+[15.810678] (-) TimerEvent: {}
+[15.911378] (-) TimerEvent: {}
+[16.012128] (-) TimerEvent: {}
+[16.112838] (-) TimerEvent: {}
+[16.213602] (-) TimerEvent: {}
+[16.314274] (-) TimerEvent: {}
+[16.415021] (-) TimerEvent: {}
+[16.515710] (-) TimerEvent: {}
+[16.616459] (-) TimerEvent: {}
+[16.717153] (-) TimerEvent: {}
+[16.817808] (-) TimerEvent: {}
+[16.918495] (-) TimerEvent: {}
+[17.019248] (-) TimerEvent: {}
+[17.119919] (-) TimerEvent: {}
+[17.220604] (-) TimerEvent: {}
+[17.321360] (-) TimerEvent: {}
+[17.422024] (-) TimerEvent: {}
+[17.522772] (-) TimerEvent: {}
+[17.623569] (-) TimerEvent: {}
+[17.724309] (-) TimerEvent: {}
+[17.825053] (-) TimerEvent: {}
+[17.925815] (-) TimerEvent: {}
+[18.026490] (-) TimerEvent: {}
+[18.127232] (-) TimerEvent: {}
+[18.227925] (-) TimerEvent: {}
+[18.328662] (-) TimerEvent: {}
+[18.429378] (-) TimerEvent: {}
+[18.530094] (-) TimerEvent: {}
+[18.630811] (-) TimerEvent: {}
+[18.731536] (-) TimerEvent: {}
+[18.832262] (-) TimerEvent: {}
+[18.933007] (-) TimerEvent: {}
+[19.033813] (-) TimerEvent: {}
+[19.134595] (-) TimerEvent: {}
+[19.235406] (-) TimerEvent: {}
+[19.336112] (-) TimerEvent: {}
+[19.436852] (-) TimerEvent: {}
+[19.537600] (-) TimerEvent: {}
+[19.638384] (-) TimerEvent: {}
+[19.739367] (-) TimerEvent: {}
+[19.743643] (inference_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1\n'}
+[19.744423] (inference_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2\n'}
+[19.744794] (inference_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[19.753752] (inference_pkg) CommandEnded: {'returncode': 2}
+[19.839512] (-) TimerEvent: {}
+[19.888894] (inference_pkg) JobEnded: {'identifier': 'inference_pkg', 'rc': 2}
+[19.892769] (-) EventReactorShutdown: {}

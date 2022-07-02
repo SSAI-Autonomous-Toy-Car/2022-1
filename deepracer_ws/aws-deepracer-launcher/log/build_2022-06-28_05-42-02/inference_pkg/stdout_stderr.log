@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target inference_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o[0m
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:171:2:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  171 |  /*
+      |   
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:258:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klidar_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  258 |         for(const auto& [01;35m[Klidar_value[m[K : lidar_data) {
+      |                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In member function ‘[01m[Kvoid IntelInferenceEngine::RLInferenceModel::sensorCB_user(deepracer_interfaces_pkg::msg::EvoSensorMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:346:101:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid {anonymous}::right1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&, std::shared_ptr<rclcpp::Node>) [with T = unsigned char; V = float; sensor_msgs::msg::Image = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’
+  346 |               right1DImg<uchar, float>(inputPtr, retData, imgProcess_, msg->images[1], paramsArr_[i][01;31m[K)[m[K;
+      |                                                                                                     [01;31m[K^[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:146:44:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |      template<typename T, typename V> void [01;36m[Kright1DImg[m[K(V *inputPtr,
+      |                                            [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

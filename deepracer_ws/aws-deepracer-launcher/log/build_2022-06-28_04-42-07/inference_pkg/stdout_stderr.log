@@ -1,0 +1,23 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o[0m
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:168:2:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  168 |  /*
+      |   
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::load1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:197:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+  197 |         *[01;31m[K/[m[K
+      |          [01;31m[K^[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:198:6:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  198 |      [01;31m[K}[m[K
+      |      [01;31m[K^[m[K
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:258:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klidar_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  258 |         for(const auto& [01;35m[Klidar_value[m[K : lidar_data) {
+      |                         [01;35m[K^~~~~~~~~~~[m[K
+/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp: In instantiation of ‘[01m[Kvoid {anonymous}::load1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&) [with T = unsigned char; V = float; sensor_msgs::msg::Image = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:411:111:[m[K   required from here
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:193:61:[m[K [01;31m[Kerror: [m[Ksubscripted value is neither array nor pointer
+  193 |                 inputPtr[h * width + w] = [01;31m[KretImg.at<T>(h, w)[[m[Kc]/255;
+      |                                           [01;31m[K~~~~~~~~~~~~~~~~~~^[m[K
+make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

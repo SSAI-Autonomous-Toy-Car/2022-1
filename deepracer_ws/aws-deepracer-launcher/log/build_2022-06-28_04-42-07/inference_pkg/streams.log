@@ -1,0 +1,25 @@
+[0.168s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg -- -j2 -l2
+[1.550s] [ 25%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o[0m
+[5.632s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:168:2:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[5.633s]   168 |  /*
+[5.633s]       |   
+[42.653s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::load1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&)[m[K’:
+[42.654s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:197:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[42.654s]   197 |         *[01;31m[K/[m[K
+[42.654s]       |          [01;31m[K^[m[K
+[42.654s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:198:6:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[42.655s]   198 |      [01;31m[K}[m[K
+[42.655s]       |      [01;31m[K^[m[K
+[42.664s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)[m[K’:
+[42.664s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:258:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klidar_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[42.664s]   258 |         for(const auto& [01;35m[Klidar_value[m[K : lidar_data) {
+[42.665s]       |                         [01;35m[K^~~~~~~~~~~[m[K
+[45.967s] /root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp: In instantiation of ‘[01m[Kvoid {anonymous}::load1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&) [with T = unsigned char; V = float; sensor_msgs::msg::Image = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’:
+[45.972s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:411:111:[m[K   required from here
+[45.972s] [01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:193:61:[m[K [01;31m[Kerror: [m[Ksubscripted value is neither array nor pointer
+[45.972s]   193 |                 inputPtr[h * width + w] = [01;31m[KretImg.at<T>(h, w)[[m[Kc]/255;
+[45.973s]       |                                           [01;31m[K~~~~~~~~~~~~~~~~~~^[m[K
+[62.376s] make[2]: *** [CMakeFiles/inference_node.dir/build.make:76: CMakeFiles/inference_node.dir/src/intel_inference_eng.cpp.o] Error 1
+[62.376s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/inference_node.dir/all] Error 2
+[62.377s] make: *** [Makefile:141: all] Error 2
+[62.385s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg' returned '2': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/inference_pkg -- -j2 -l2

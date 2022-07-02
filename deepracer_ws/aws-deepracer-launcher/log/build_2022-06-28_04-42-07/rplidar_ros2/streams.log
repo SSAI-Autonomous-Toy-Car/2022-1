@@ -1,0 +1,35 @@
+[0.100s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2 -- -j2 -l2
+[0.980s] [100%] Built target rplidar_scan_publisher
+[1.065s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2' returned '0': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2 -- -j2 -l2
+[1.327s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2
+[1.428s] -- Install configuration: ""
+[1.432s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch
+[1.437s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_a3_launch.py
+[1.442s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_launch.py
+[1.464s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_launch.py
+[1.468s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_tcp_launch.py
+[1.468s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_a3_launch.py
+[1.469s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_launch.py
+[1.469s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_launch.py
+[1.469s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_tcp_launch.py
+[1.469s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/rviz
+[1.470s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/rviz/rplidar_ros2.rviz
+[1.479s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher
+[1.480s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2
+[1.480s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2
+[1.480s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.sh
+[1.481s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.dsv
+[1.481s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/path.sh
+[1.563s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/environment/path.dsv
+[1.564s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.bash
+[1.564s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.sh
+[1.565s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.zsh
+[1.565s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/local_setup.dsv
+[1.566s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/package.dsv
+[1.572s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/ament_index/resource_index/packages/rplidar_ros2
+[1.572s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.573s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.573s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake
+[1.580s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake
+[1.580s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/rplidar_ros2/share/rplidar_ros2/package.xml
+[1.581s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2' returned '0': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/rplidar_ros2

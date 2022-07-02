@@ -1,0 +1,12 @@
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:175:2:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  175 |  /*
+      |   
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::loadLidarData(float*, const std::vector<float>&)[m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:262:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klidar_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  262 |         for(const auto& [01;35m[Klidar_value[m[K : lidar_data) {
+      |                         [01;35m[K^~~~~~~~~~~[m[K
+/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp: In instantiation of ‘[01m[Kvoid {anonymous}::right1DImg(V*, cv::Mat&, std::shared_ptr<InferTask::ImgProcessBase>, const Image&, const std::unordered_map<std::__cxx11::basic_string<char>, int>&, std::shared_ptr<rclcpp::Node>) [with T = unsigned char; V = float; sensor_msgs::msg::Image = sensor_msgs::msg::Image_<std::allocator<void> >][m[K’:
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:353:116:[m[K   required from here
+[01m[K/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-inference-pkg/inference_pkg/src/intel_inference_eng.cpp:154:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KinferenceNode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  154 |                                                      [01;35m[Kstd::shared_ptr<rclcpp::Node> inferenceNode[m[K) {
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K

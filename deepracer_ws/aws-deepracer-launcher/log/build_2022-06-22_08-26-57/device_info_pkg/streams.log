@@ -1,0 +1,21 @@
+[0.971s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-device-info-pkg/device_info_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/device_info_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/device_info_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/device_info_pkg/install.log --single-version-externally-managed
+[1.818s] running egg_info
+[1.824s] writing ../../build/device_info_pkg/device_info_pkg.egg-info/PKG-INFO
+[1.825s] writing dependency_links to ../../build/device_info_pkg/device_info_pkg.egg-info/dependency_links.txt
+[1.825s] writing entry points to ../../build/device_info_pkg/device_info_pkg.egg-info/entry_points.txt
+[1.825s] writing requirements to ../../build/device_info_pkg/device_info_pkg.egg-info/requires.txt
+[1.826s] writing top-level names to ../../build/device_info_pkg/device_info_pkg.egg-info/top_level.txt
+[1.958s] reading manifest file '../../build/device_info_pkg/device_info_pkg.egg-info/SOURCES.txt'
+[1.963s] writing manifest file '../../build/device_info_pkg/device_info_pkg.egg-info/SOURCES.txt'
+[1.964s] running build
+[1.964s] running build_py
+[1.967s] running install
+[1.971s] running install_lib
+[1.977s] running install_data
+[1.980s] running install_egg_info
+[1.991s] removing '/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages/device_info_pkg-0.0.1-py3.8.egg-info' (and everything under it)
+[1.991s] Copying ../../build/device_info_pkg/device_info_pkg.egg-info to /root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages/device_info_pkg-0.0.1-py3.8.egg-info
+[1.992s] running install_scripts
+[2.059s] Installing device_info_node script to /root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/device_info_pkg
+[2.062s] writing list of installed files to '/root/deepracer_ws/aws-deepracer-launcher/build/device_info_pkg/install.log'
+[2.150s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/aws-deepracer-device-info-pkg/device_info_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg/lib/python3.8/site-packages:/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/device_info_pkg build --build-base /root/deepracer_ws/aws-deepracer-launcher/build/device_info_pkg/build install --prefix /root/deepracer_ws/aws-deepracer-launcher/install/device_info_pkg --record /root/deepracer_ws/aws-deepracer-launcher/build/device_info_pkg/install.log --single-version-externally-managed

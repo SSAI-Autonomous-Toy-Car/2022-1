@@ -1,0 +1,33 @@
+[0.224s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg -- -j2 -l2
+[1.492s] [100%] Built target servo_node
+[1.585s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg -- -j2 -l2
+[2.180s] Invoking command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg
+[2.465s] -- Install configuration: ""
+[2.475s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/lib/servo_pkg/servo_node
+[2.484s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include
+[2.485s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg
+[2.485s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/bios_version.hpp
+[2.490s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/led_mgr.hpp
+[2.491s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/pwm.hpp
+[2.491s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/servo_mgr.hpp
+[2.492s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/include/servo_pkg/utility.hpp
+[2.504s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg//launch
+[2.504s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg//launch/servo_pkg_launch.py
+[2.504s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/ament_index/resource_index/package_run_dependencies/servo_pkg
+[2.505s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/ament_index/resource_index/parent_prefix_path/servo_pkg
+[2.505s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/ament_prefix_path.sh
+[2.505s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/ament_prefix_path.dsv
+[2.506s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/path.sh
+[2.519s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/environment/path.dsv
+[2.519s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.bash
+[2.520s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.sh
+[2.520s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.zsh
+[2.520s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/local_setup.dsv
+[2.521s] -- Installing: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/package.dsv
+[2.559s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/ament_index/resource_index/packages/servo_pkg
+[2.560s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.560s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.561s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/servo_pkgConfig.cmake
+[2.561s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/cmake/servo_pkgConfig-version.cmake
+[2.561s] -- Up-to-date: /root/deepracer_ws/aws-deepracer-launcher/install/servo_pkg/share/servo_pkg/package.xml
+[2.562s] Invoked command in '/root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib PYTHONPATH=/root/deepracer_ws/aws-deepracer-launcher/install/deepracer_interfaces_pkg/lib/python3.8/site-packages /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-launcher/build/servo_pkg
