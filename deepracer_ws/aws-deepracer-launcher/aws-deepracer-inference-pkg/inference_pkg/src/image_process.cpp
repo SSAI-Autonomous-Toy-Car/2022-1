@@ -146,8 +146,6 @@ namespace InferTask {
                 /* cv::cvtColor(currImg, currImg, cv::COLOR_BGR2GRAY); */
                 // Convert in Unity style
                 // reference code : https://answers.opencv.org/question/175975/i-want-to-know-where-exactly-the-source-code-cvtcolor-functions-implemented/
-                // Unity grayscale reference : https://docs.unity3d.com/ScriptReference/Color-grayscale.html
-                // R 0.3 G 0.4 B 0.6
                 cvt::Mat dst;
                 dst.create(src.size(), CV_8UC1);
                 int rows = currImg.rows, cols = currImg.cols;
@@ -156,7 +154,7 @@ namespace InferTask {
                     uchar* dst_ptr = dst.ptr<uchar>(row);
 
                     for (int col = 0; col < cols; col++){
-                        dst_ptr[col] = (uchar)(src_ptr[0] * 0.6f + src_ptr[1] * 0.4f + src_ptr[2] * 0.3f);
+                        dst_ptr[col] = (uchar)((src_ptr[0] + src_ptr[1] + src_ptr[2]) / 3.0f);
                         src_ptr += 3;
                     }
                 }
